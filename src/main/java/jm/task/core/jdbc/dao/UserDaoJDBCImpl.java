@@ -14,8 +14,8 @@ import java.sql.Statement;
 
 import static jm.task.core.jdbc.util.Util.*;
 
-public class UserDaoJDBCImpl implements UserDao {
-    private final Connection connection;
+/* public class UserDaoJDBCImpl implements UserDao {
+     private final Connection connection;
     private final Statement statement;
     public UserDaoJDBCImpl(Connection connection) {
         this.connection = connection;
@@ -108,4 +108,4 @@ public class UserDaoJDBCImpl implements UserDao {
             throw new RuntimeException();
         }
     }
-}
+} */
